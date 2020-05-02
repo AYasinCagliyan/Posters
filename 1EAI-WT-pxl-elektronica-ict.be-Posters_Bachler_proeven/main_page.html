@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PXL-Digital-EA Bachelor Posters</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <div class = "header_margin">
+            <div class ="header">
+                <ul class = "navbar">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Webserver</a></li>
+                    <li><a href="#">Uurroosters</a></li>
+                    <li><a href="#">Bachelorproef</a></li>
+                    <li><a href="#">Locatie</a></li>
+                    <li><a href="#">Opleiding</a></li>
+                    <li><a href="pxl_website_index.html">Home</a></li>
+                </ul>
+                    
+                <div class="logo_nav">
+                    <img src="logo.jpg" 	width= "150px" height = "150px">
+                </div>
+            </div>
+        </div>
+
+       
+        <div class ="row">
+            
+            <div class = "col-sm-6">
+                <h1> Jaar </h1>
+                <p>Alle posters van 1 schooljaar</p>
+                <ul class="tree_start">
+                    <li> <span class="tree"> <a href="4K.png"> 2017-2018 </a> </span>
+                        <ul class="tree_nested">
+                            <li> indivudele posters van studenten </li>
+                                <ul style="list-style-type:disc;">
+                                    <li><a href="11303546.png"> 11303546 </a></li>
+                                    <li><a href="11304728.png"> 11304728 </a></li>
+                                    <li><a href="11307910.png"> Evert Nicolaï </a></li>
+                                    <li><a href="11400490.png"> Yasin Kurt </a></li>
+                                    <li><a href="11400513.png"> Kenneth Van Hooff </a></li>
+                                    <li><a href="11401490.png"> Koen Coune </a></li>
+                                    <li><a href="11401644.png"> 11401644 </a></li>
+                                    <li><a href="11401699.png"> Jonas Knuts </a></li>
+                                    <li><a href="11402314.png"> 11402314 </a></li>
+                                    <li><a href="11402651.png"> Wai Tung Chan </a></li>
+                                    <li><a href="11402762.png"> Joline Geers </a></li>
+                                    <li><a href="11500101.png"> Laura Van Spauwen </a></li>
+                                    <li><a href="11500847.png"> Erik Niels </a></li>
+                                    <li><a href="11501117.png"> Jarne Gregoire </a></li>
+                                    <li><a href="11501671.png"> Jolien Jeunen </a></li>
+                                    <li><a href="11502031.png"> Lambrechts Armand </a></li>
+                                    <li><a href="11502063.png"> Brecht Van Looken </a></li>
+                                    <li><a href="11502348.png"> 11502348 </a></li>
+                                    <li><a href="11502556.png"> Jarne Franssen </a></li>
+                                    <li><a href="11502596.png"> Ward Maartens </a></li>
+                                    <li><a href="11603170.png"> Tibo Janssens </a></li>
+                                </ul>  
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <h1> Pxl-Digital</h1>
+            <p>...</p>
+        </footer>
+
+
+        <script>
+            var toggler = document.getElementsByClassName("tree");
+            var i;
+    
+            for (i = 0; i < toggler.length; i++) {
+                toggler[i].addEventListener("click", function() {
+                    this.parentElement.querySelector(".tree_nested").classList.toggle("tree_active");
+                    this.classList.toggle("tree-down");
+                });
+            }
+        </script>
+
+    </body>
+</html> 
+
